@@ -44,7 +44,8 @@ console.log(typeof(k));
 
 //a - Object: 
 let user = {
-    name:'Satya',age:30
+    name:'Satya',
+    age:30
 };
 console.log(user)
 //To access the object properties :
