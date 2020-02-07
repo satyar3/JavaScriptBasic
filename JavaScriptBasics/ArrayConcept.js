@@ -44,14 +44,14 @@ console.log(m.includes(4));
 //find an element in array (refernce type of data):
 //**************************************************************** */
 
-const cources = [
+const courses = [
     {id:1, name: 'a'},
     {id:2, name: 'b'}
 ]
 
-console.log(cources.includes( {id:1, name: 'a'})); //false
+console.log(courses.includes( {id:1, name: 'a'})); //false
 
-const c1 = cources.find(function(key){
+const c1 = courses.find(function(key){
     return key.name === 'a';
 })
 
@@ -59,15 +59,15 @@ console.log(c1);
 console.log(c1.name);
 
 
-console.log(cources.includes( {id:1, name: 'a'})); //false
+console.log(courses.includes( {id:1, name: 'a'})); //false
 
-const c2 = cources.findIndex(function(key){
+const c2 = courses.findIndex(function(key){
     return key.name === 'a';
 })
 
 console.log(c2);
 
-const c3 = cources.find(key => key.name === 'a');
+const c3 = courses.find(key => key.name === 'a');
 console.log(c3);
 
 
